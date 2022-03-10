@@ -47,11 +47,11 @@ const styles = StyleSheet.create({
     width: '80%',
     height: 47,
     textAlign: 'center',
-    backgroundColor: '#1117647E',
+    backgroundColor: '#18123150',
     borderRadius: 5,
   },
   submitText: {
-    fontSize: 18,
+    fontSize: 16,
     fontWeight: 'bold',
     color: 'white',
     textAlign: 'center',

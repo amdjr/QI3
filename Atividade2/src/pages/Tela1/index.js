@@ -3,7 +3,7 @@ import {View, Text, TextInput, TouchableOpacity, StatusBar} from 'react-native';
 
 import styles from './styleTela1Css';
 
-function Tela1() {
+function Tela1({navigation}) {
   return (
     <View style={styles.bkg1}>
       <StatusBar hidden />
@@ -22,7 +22,9 @@ function Tela1() {
           <Text style={styles.submitText}>Log in</Text>
         </TouchableOpacity>
       </View>
-      <Text style={styles.cadastro}>sign up for Facebook</Text>
+      <TouchableOpacity onPress={() => navigation.navigate('Home')}>
+        <Text style={styles.cadastro}>sign up for Facebook</Text>
+      </TouchableOpacity>
     </View>
   );
 }
