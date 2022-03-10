@@ -2,5 +2,6 @@
     "cSpell.words": [
         "Menlo",
         "Roboto"
-    ]
+    ],
+    "java.configuration.updateBuildConfiguration": "automatic"
 }
