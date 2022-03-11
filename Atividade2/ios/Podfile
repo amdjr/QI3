@@ -16,6 +16,8 @@ target 'Atividade2' do
 
   pod 'react-native-safe-area-context', :path => '../node_modules/react-native-safe-area-context'
 
+  pod 'RNGestureHandler', :path => '../node_modules/react-native-gesture-handler'
+
   target 'Atividade2Tests' do
     inherit! :complete
     # Pods for testing

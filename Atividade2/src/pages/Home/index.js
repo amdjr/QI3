@@ -1,13 +1,14 @@
 import React from 'react';
-import {View, Text, StyleSheet, Button} from 'react-native';
+import {View, Text, StyleSheet, Button, StatusBar} from 'react-native';
 
 function Home({navigation}) {
   return (
     <View style={styles.container}>
+      <StatusBar backgroundColor="#555555" />
       <Text style={styles.titulo}>ATIVIDADE 2</Text>
       <View style={styles.btnContainer}>
         <Button
-          color="#333333"
+          color="#3b5998"
           title="Tela 1"
           onPress={() => navigation.navigate('Tela1')}
         />
@@ -17,7 +18,7 @@ function Home({navigation}) {
           onPress={() => navigation.navigate('Tela2')}
         />
         <Button
-          color="#154770"
+          color="#333333"
           title="Tela 3"
           onPress={() => navigation.navigate('Tela3')}
         />
