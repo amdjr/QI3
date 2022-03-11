@@ -8,6 +8,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#102F74D0',
     alignItems: 'flex-start',
     height: '10%',
+    paddingRight: 15,
   },
   searchStyle: {
     flex: 1,
@@ -25,10 +26,11 @@ const styles = StyleSheet.create({
   },
   bkgDivDown: {
     width: '100%',
-    height: '47%',
+    height: '48%',
     justifyContent: 'space-around',
     alignItems: 'center',
     paddingTop: 8,
+    paddingBottom: 8,
   },
   card: {
     width: 150,
@@ -37,20 +39,16 @@ const styles = StyleSheet.create({
     position: 'absolute',
     marginTop: 280,
     marginLeft: 123,
-    borderColor: 'white',
-    borderWidth: 4,
+    borderColor: '#DBDCE7',
+    borderWidth: 5,
+    elevation: 4,
+    shadowColor: '#FFFFFF',
   },
   title: {
     textAlign: 'center',
-    fontSize: 30,
+    fontSize: 33,
     marginTop: 120,
     color: '#4D5975B7',
-  },
-
-  text1: {
-    fontSize: 15,
-    color: '#4D5975B7',
-    marginRight: 180,
   },
   containerlinks: {
     flexDirection: 'row',
@@ -67,11 +65,10 @@ const styles = StyleSheet.create({
 
   bkg3: {
     flexDirection: 'row',
-    height: '10%',
+    height: '9%',
     width: '100%',
     justifyContent: 'space-around',
     alignItems: 'center',
-    backgroundColor: '#444',
   },
 
   bkgContainer: {
@@ -86,14 +83,20 @@ const styles = StyleSheet.create({
   btnText: {
     width: '33.33%',
     height: '100%',
-    backgroundColor: '#E4E4E4',
+    backgroundColor: '#EBEDF5',
     textAlign: 'center',
-    fontSize: 23,
+    fontSize: 21,
     fontWeight: 'bold',
     paddingTop: 20,
     paddingLeft: 5,
     paddingRight: 10,
     color: '#4D5975B7',
+    elevation: 2,
+  },
+  text1: {
+    fontSize: 15,
+    color: '#4D5975B7',
+    marginRight: 160,
   },
 });
 export default styles;

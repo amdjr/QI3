@@ -47,7 +47,7 @@ const styles = StyleSheet.create({
     width: '80%',
     height: 47,
     textAlign: 'center',
-    backgroundColor: '#18123150',
+    backgroundColor: '#09080C42',
     borderRadius: 5,
   },
   submitText: {

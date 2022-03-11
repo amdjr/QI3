@@ -106,6 +106,12 @@
 		<string>Octicons.ttf</string>
 		<string>SimpleLineIcons.ttf</string>
 		<string>Zocial.ttf</string>
+		<string>Futura Bold.ttf</string>
+		<string>Futura Book.ttf</string>
+		<string>Futura Round.ttf</string>
+		<string>Futura Std Book.ttf</string>
+		<string>Futura Std Heavy.ttf</string>
+		<string>Futura Thin.ttf</string>
 	</array>
 </dict>
 </plist>

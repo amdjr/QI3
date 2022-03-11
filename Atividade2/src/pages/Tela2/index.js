@@ -3,10 +3,11 @@ import {View, Text, StatusBar, TouchableOpacity} from 'react-native';
 import {SafeAreaProvider} from 'react-native-safe-area-context';
 import {Searchbar, IconButton, Card} from 'react-native-paper';
 import MaterialCommunityIcon from 'react-native-vector-icons/MaterialCommunityIcons';
+import AwesomeIcon from 'react-native-vector-icons/AntDesign';
 
 import styles from './styleTela2Css';
 
-function Tela2() {
+function Tela2({navigation}) {
   const [searchQuery, setSearchQuery] = React.useState('');
   const onChangeSearch = query => setSearchQuery(query);
 
@@ -16,15 +17,13 @@ function Tela2() {
       <View style={styles.containerTop}>
         <IconButton
           icon="arrow-left"
-          size={30}
+          size={35}
           color="white"
-          onClick={onChangeSearch}
+          onPress={() => navigation.navigate('Home')}
         />
         <Searchbar
           style={styles.searchStyle}
-          icon={() => (
-            <MaterialCommunityIcon name="search-web" size={35} color="white" />
-          )}
+          icon={() => <AwesomeIcon name="search1" size={25} color="white" />}
           iconColor="white"
           onChangeText={onChangeSearch}
           value={searchQuery}
@@ -36,12 +35,12 @@ function Tela2() {
         <Text style={styles.title}>Your Name</Text>
         <TouchableOpacity style={styles.containerlinks}>
           <MaterialCommunityIcon
-            name="search-web"
+            name="facebook-messenger"
             size={35}
             color="#4D5975B7"
           />
           <MaterialCommunityIcon
-            name="search-web"
+            name="dots-horizontal-circle-outline"
             size={35}
             color="#4D5975B7"
           />

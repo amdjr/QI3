@@ -43,7 +43,13 @@ function App() {
             headerShown: false,
           }}
         />
-        <Stack.Screen name="Tela3" component={Tela3} />
+        <Stack.Screen
+          name="Tela3"
+          component={Tela3}
+          options={{
+            headerShown: false,
+          }}
+        />
       </Stack.Navigator>
     </NavigationContainer>
   );
