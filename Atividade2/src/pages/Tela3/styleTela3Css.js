@@ -83,7 +83,7 @@ var styles = StyleSheet.create({
 
   btnOr: {
     margin: 10,
-    backgroundColor: '#51135769',
+    backgroundColor: '#5C192879',
     width: 40,
     height: 40,
     borderRadius: 50,
@@ -92,13 +92,11 @@ var styles = StyleSheet.create({
   },
   btnText2: {fontWeight: 'bold', color: '#FDFDFDB9', fontSize: 16},
   btnRepost: {
-    backgroundColor: '#371A3A6E',
+    backgroundColor: '#5C192879',
     width: '90%',
     height: 55,
     justifyContent: 'center',
     alignItems: 'center',
-    borderWidth: 2,
-    borderColor: '#62156969',
   },
 });
 

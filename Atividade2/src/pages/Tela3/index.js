@@ -10,10 +10,10 @@ export default function Tela3() {
     <View style={styles.container}>
       <StatusBar hidden={true} />
       <LinearGradient
-        colors={['#FC5B32', '#B8258C', '#AD03AD']}
+        colors={['#FC5B32', '#B82562', '#AD03AD']}
         start={{x: 0.1, y: 0}}
         end={{x: 0.1, y: 1}}
-        locations={[0, 0.7, 1]}
+        locations={[0, 0.5, 1]}
         style={styles.background}>
         <View style={styles.helpContainer}>
           <TouchableOpacity style={styles.searchIcon}>
